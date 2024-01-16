@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This is the user class"""
+"""This is the user class>that the user use"""
 from sqlalchemy.ext.declarative import declarative_base
 from models.base_model import BaseModel, Base
 from sqlalchemy import Column, Integer, String
