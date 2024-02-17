@@ -1,13 +1,12 @@
 #!/usr/bin/python3
 """Starts a Flask web application.
-
-The application listens on 0.0.0.0, port 5000.
+    /hbnb: This file Displays 'HBNB'
 Routes:
-    /: Displays 'Hello HBNB!'.
-    /hbnb: Displays 'HBNB'.
-    /c/<text>: Displays 'C' followed by the value of <text>.
-    /python/(<text>): Displays 'Python' followed by the value of <text>.
-    /number/<n>: Displays 'n is a number' only if <n> is an integer.
+    /: this route Displays 'Hello HBNB!'.
+    /hbnb: this route Displays 'HBNB'.
+    /c/<text>: this route Displays 'C' followed by the value of <text>.
+    /python/(<text>): this route Displays 'Python' followed by the value of <text>.
+    /number/<n>: this route Displays 'n is a number' only if <n> is an integer.
 """
 from flask import Flask
 from flask import abort
